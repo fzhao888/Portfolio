@@ -1,0 +1,43 @@
+/**Styles as elements  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/**Styles body */
+body {
+    background-color: skyblue;
+}
+
+/*styles header */
+header{
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;           
+}
+
+/*styles h1 elements inside header*/
+header h1 {
+    display:inline-block;
+    font-size: 24px;
+}
+
+/**styles the font size, top padding, right margin, and pins nav bar t  */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/**makes the list items inline instead of on each line*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*styles the text of the links */
+header a{
+    color:white;
+}
