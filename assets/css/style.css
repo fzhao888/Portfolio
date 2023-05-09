@@ -41,3 +41,8 @@ header nav ul li {
 header a{
     color:white;
 }
+
+/*pins selfie to the left of the about me paragraph */
+.about-me img{
+    float:left;
+}
