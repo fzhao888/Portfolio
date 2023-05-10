@@ -44,6 +44,9 @@ header a{
 /*styles titles in content section */
 .content h2{
     white-space: nowrap;
+    display: flex;
+    border-right: 5px solid darkblue; 
+    align-items: center; 
 }
 
 /*styles about me section */
@@ -51,28 +54,10 @@ header a{
     display: flex; 
 }
 
-/*styles about me title */
-.about-me h2{
-    display: flex;
-    border-right: 5px solid darkblue;
-    justify-content: center;
-    align-items: center;
-}
-
 /*styles work section */
 .work{
     display:flex;
 }
-
-/*styles work section title */
-.work h2{
-    display:flex;
-    border-right: 5px solid darkblue;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 /*styles projects section */
 .projects{
@@ -114,15 +99,37 @@ header a{
 
 /*styles contact us section */
 .contact-us{
-    display: flex; 
-}
-
-/*styles contact us title */
-.contact-us h2{
-    border-right: 5px solid darkblue;
+    display: flex;
+    white-space: nowrap; 
 }
 
 /*styles contact us links */
 .contact-us .links{
     display: flex;
 }
+
+/*Handles when the screen is 992px or smaller */
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+    .card img{
+        width: 50%;
+      }
+  }
+  
+  /*Handles when screen is 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    .contact-us .card{
+        font-size: 10px;
+        width: 25%;
+    }
+
+    .contact-us .card p{
+        padding-right: 5px;
+    }
+  }
+ 
