@@ -52,7 +52,7 @@ header a{
 /*styles about me section */
 .about-me{
     display: flex; 
-}
+} 
 
 /*styles work section */
 .work{
@@ -100,7 +100,7 @@ header a{
 /*styles contact us section */
 .contact-us{
     display: flex;
-    white-space: nowrap; 
+    white-space: nowrap;  
 }
 
 /*styles contact us links */
@@ -111,45 +111,65 @@ header a{
 /*Handles when the screen is 992px or smaller */
 @media screen and (max-width: 992px) {
     .card {
-      width: 50%;
+        width: 50%;
     }
     .card img{
         width: 50%;
     }
   }
+
+  /*Handles when screen is between 769 and 991 */
+  @media screen and (min-width: 769px) and (max-width: 991px) {
+      .card {
+        width: 100%;   
+      }
+      .card img{
+        width: 50%;
+    }
+
+      .contact-us .card{
+          font-size: 10px;
+          width: 5%;
+      }
+  
+      .contact-us .card p{
+          padding-right: 5px; 
+      }
+  
+      header .card h1 {
+          font-size:20px; 
+      }
+  
+      header .card nav{
+          font-size:15px;  
+      } 
+  }
   
   /*Handles when screen is  768px or smaller */
   @media screen and (max-width: 768px) {
     .card {
-      width: 100%;
+      width: 100%; 
+      font-size: 10px;
+    }
+    .card img{
+        width: 100%;
     }
     .contact-us .card{
         font-size: 10px;
-        width: 25%;
+        width: 5%;
     }
 
     .contact-us .card p{
-        padding-right: 5px;
-    }
-  }
-
-  /*Handles when screen is  450px or smaller */
-  @media screen and (max-width: 450px) {
-    .card {
-      width: 100%;
-    }
-    .contact-us .card{
-        font-size: 10px;
-        width: 70%;
-        flex-wrap: wrap;
+        padding-right: 5px; 
     }
 
-    .contact-us .card p{
-        padding-right: 5px;
+    header .card h1 {
+        font-size:15px;
+        width:50%;
     }
 
-    header .card {
-        font-size: 12px;
+    header .card nav{
+        font-size:10px;
     }
   }
  
