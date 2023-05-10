@@ -118,7 +118,7 @@ header a{
       }
   }
   
-  /*Handles when screen is 768px or smaller */
+  /*Handles when screen is  768px or smaller */
   @media screen and (max-width: 768px) {
     .card {
       width: 100%;
