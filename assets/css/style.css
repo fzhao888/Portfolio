@@ -114,7 +114,8 @@ header a{
 
 /*styles contact us section */
 .contact-us{
-    display: flex; 
+    display: flex;
+    white-space: nowrap; 
 }
 
 /*styles contact us title */
