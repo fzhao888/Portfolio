@@ -1,8 +1,8 @@
 /**Styles as elements  */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 1%;
+    margin: 1%;
 }
 
 /**Styles body */
@@ -19,30 +19,57 @@ header{
 
 /*styles h1 elements inside header*/
 header h1 {
-    display:inline-block;
+    display:inline-flex;
     font-size: 24px;
 }
 
-/**styles the font size, top padding, right margin, and pins nav bar t  */
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+/**styles pins nav bar to right side and sets font size  */
+header nav { 
     float: right;
     font-size: 20px;
 }
 
-/**makes the list items inline instead of on each line*/
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+/*nav bar list */
+nav ul{
+    display: flex;
+    white-space: nowrap;
 }
+
 
 /*styles the text of the links */
 header a{
     color:white;
 }
 
-/*pins selfie to the left of the about me paragraph */
-.about-me img{
-    float:left;
+/*styles titles in content section */
+.content h2{
+    white-space: nowrap;
 }
+
+/*styles about me section */
+.about-me{
+    display: flex; 
+}
+
+/*styles about me title */
+.about-me h2{
+    display: flex;
+    border-right: 5px solid darkblue;
+    justify-content: center;
+    align-items: center;
+}
+
+/*styles work section */
+.work{
+    display:flex;
+}
+
+/*styles work section title */
+.work h2{
+    display:flex;
+    border-right: 5px solid darkblue;
+    justify-content: center;
+    align-items: center;
+}
+
+
