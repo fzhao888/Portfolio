@@ -115,7 +115,7 @@ header a{
     }
     .card img{
         width: 50%;
-      }
+    }
   }
   
   /*Handles when screen is  768px or smaller */
@@ -130,6 +130,26 @@ header a{
 
     .contact-us .card p{
         padding-right: 5px;
+    }
+  }
+
+  /*Handles when screen is  450px or smaller */
+  @media screen and (max-width: 450px) {
+    .card {
+      width: 100%;
+    }
+    .contact-us .card{
+        font-size: 10px;
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    .contact-us .card p{
+        padding-right: 5px;
+    }
+
+    header .card {
+        font-size: 12px;
     }
   }
  
