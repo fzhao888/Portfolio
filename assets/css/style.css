@@ -73,3 +73,42 @@ header a{
 }
 
 
+
+/*styles projects section */
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*adds some padding between the project img and project description */
+.projects img{
+    padding-bottom: 2%;
+}
+
+/*adds some padding between the project title and the project image */
+.projects h3{
+    padding-bottom: 1%;
+}
+
+/*adds padding to the bottom of the first project row*/
+.project-row1{
+    padding-bottom: 2%;
+}
+
+/**styles first row of project images  */
+.project-row1 img{
+   width: 80%;
+}
+
+/*styles second row of projects */
+.project-row2{
+    display: flex; 
+    padding-bottom: 2%;
+}
+
+ /*styles third row of projects */
+.project-row3{
+    display:flex;
+    padding-bottom: 2%;
+}
+
